@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60BE6842339908F009882B1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BE6832339908F009882B1 /* Store.swift */; };
+		D60BE686233990AF009882B1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BE685233990AF009882B1 /* State.swift */; };
 		D6BD52DD233430A00022C0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BD52DC233430A00022C0E7 /* AppDelegate.swift */; };
 		D6BD52DF233430A00022C0E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BD52DE233430A00022C0E7 /* ViewController.swift */; };
 		D6BD52E2233430A00022C0E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6BD52E0233430A00022C0E7 /* Main.storyboard */; };
@@ -15,7 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D6BD52D9233430A00022C0E7 /* ReduxingPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxingPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60BE6832339908F009882B1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		D60BE685233990AF009882B1 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		D6BD52D9233430A00022C0E7 /* ReduxingPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ReduxingPOC.app; path = "/Users/febezerra/Documents/Xcode/ReduxPOC/build/Debug-iphoneos/ReduxingPOC.app"; sourceTree = "<absolute>"; };
 		D6BD52DC233430A00022C0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6BD52DE233430A00022C0E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6BD52E1233430A00022C0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,20 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B73AA950565ED60F1D104AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6BD52D0233430A00022C0E7 = {
 			isa = PBXGroup;
 			children = (
 				D6BD52DB233430A00022C0E7 /* ReduxingPOC */,
-				D6BD52DA233430A00022C0E7 /* Products */,
+				9B73AA950565ED60F1D104AF /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		D6BD52DA233430A00022C0E7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D6BD52D9233430A00022C0E7 /* ReduxingPOC.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D6BD52DB233430A00022C0E7 /* ReduxingPOC */ = {
@@ -60,6 +63,8 @@
 				D6BD52E3233430A10022C0E7 /* Assets.xcassets */,
 				D6BD52E5233430A10022C0E7 /* LaunchScreen.storyboard */,
 				D6BD52E8233430A10022C0E7 /* Info.plist */,
+				D60BE6832339908F009882B1 /* Store.swift */,
+				D60BE685233990AF009882B1 /* State.swift */,
 			);
 			path = ReduxingPOC;
 			sourceTree = "<group>";
@@ -108,7 +113,7 @@
 				Base,
 			);
 			mainGroup = D6BD52D0233430A00022C0E7;
-			productRefGroup = D6BD52DA233430A00022C0E7 /* Products */;
+			productRefGroup = D6BD52D0233430A00022C0E7;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -137,6 +142,8 @@
 			files = (
 				D6BD52DF233430A00022C0E7 /* ViewController.swift in Sources */,
 				D6BD52DD233430A00022C0E7 /* AppDelegate.swift in Sources */,
+				D60BE686233990AF009882B1 /* State.swift in Sources */,
+				D60BE6842339908F009882B1 /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

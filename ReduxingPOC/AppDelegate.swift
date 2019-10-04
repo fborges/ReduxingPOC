@@ -8,6 +8,11 @@
 
 import UIKit
 
+//let mainStore = Store<AppState>(
+//    reducer: counterReducer,
+//    initialState: nil
+//)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
